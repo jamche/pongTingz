@@ -35,8 +35,8 @@ function startBallGame() {
 };
 
 function ballSpeed(){
-  topSpeedOfBall = Math.floor(Math.random() * 11 + 4);
-  leftSpeedOfBall = side * Math.floor(Math.random() * 11 + 4);
+  topSpeedOfBall = Math.floor(Math.random() * 5 + 4);
+  leftSpeedOfBall = side * Math.floor(Math.random() * 5 + 4);
 }
 // stops paddle from continuing to move
 document.addEventListener('keyup', function (e) {

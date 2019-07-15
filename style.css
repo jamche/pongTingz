@@ -13,12 +13,22 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 .titleContainer{
   border-bottom: 2px solid black;
 }
-.title{
+.title h1{
   text-align: center;
+  margin: 0;
+}
+.para p{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
 .score{
   display: flex;
   justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
 
 .court{
